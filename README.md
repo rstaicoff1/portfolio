@@ -1,16 +1,67 @@
-# React + Vite
+# React Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A personal portfolio website built with React and Vite for my Web Technologies course at Saint Louis University.
 
-Currently, two official plugins are available:
+## Live Website
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+https://rstaicoff1.github.io/portfolio/
 
-## React Compiler
+## GitHub Repository
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+https://github.com/rstaicoff1/portfolio
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Home, Experience, Projects, and Contact pages
+- Individual detail pages for each project
+- Interactive project search by title, category, or technology
+- Dark mode with preferences saved using localStorage
+- Responsive layout for desktop and mobile devices
+- Client-side routing with React Router
+- GitHub Pages deployment using GitHub Actions
+
+## Technologies
+
+- React
+- JavaScript
+- Vite
+- React Router
+- CSS
+- Git and GitHub
+
+## Running Locally
+
+1. Clone the repository.
+2. Open the project folder in a terminal.
+3. Install dependencies:
+
+```bash
+npm install
+```
+
+4. Start the development server:
+
+```bash
+npm run dev
+```
+
+5. Open the local URL displayed in the terminal.
+
+## Testing
+
+The following commands were run successfully:
+
+```bash
+npm run lint
+npm run build
+```
+
+The deployed website was also manually tested to verify navigation, project detail pages, search filtering, dark mode persistence, and correct page rendering.
+
+## Deployment
+
+The website is hosted using GitHub Pages. A GitHub Actions workflow automatically builds and deploys the application when changes are pushed to the `main` branch.
+
+## Accessibility
+
+The website includes semantic HTML elements, navigation labels, keyboard focus indicators, and responsive layouts.
